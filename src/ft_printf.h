@@ -6,7 +6,7 @@
 /*   By: amamy <amamy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/27 15:57:52 by amamy             #+#    #+#             */
-/*   Updated: 2019/04/24 17:23:03 by amamy            ###   ########.fr       */
+/*   Updated: 2019/04/24 18:14:31 by amamy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,31 +15,9 @@
 
 # include <stdarg.h>
 # include "../libft/libft.h"
-# include <stdio.h>
-
-/*
-** define examples:
-** F_W_P : flag width + precision
-** B_DONE : in ft_analyse, when it's the end of format, nothing more to read
-** F_PLUS_MINUS : When +- are on
-** AP_NEG : when the variadic argument is negative.
-** F_UNSIGNED : when it's a u,o, x, X conversion.
-** ONLY_CONV : when there are no flags to deals with.
-** F_PERCENT : %43% cases.
-** F_S : when it's a %s converion.
-** F_C_0 / F_AP_0 : when the variadic argument is 0.
-*/
-
-/*
-** Defines for specifics conversions.
-*/
 
 # define F_S 524288
 # define F_PERCENT 262144
-
-/*
-** Defines for flags.
-*/
 
 # define F_ZERO 1
 # define F_PLUS 2
@@ -58,10 +36,6 @@
 # define F_BIG_X 33554432
 # define F_X 268435456
 
-/*
-** Defines for when specifics values worth 0;.
-*/
-
 # define F_C_0 1048576
 # define F_C_02 128
 # define F_S_0 2097152
@@ -69,10 +43,6 @@
 # define F_X_0 134217728
 # define F_W_P_0 1073741824
 # define F_O 536870912
-
-/*
-** Various defines.
-*/
 
 # define B_DONE 512
 # define TMP_S_M 8388608

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_itoa_base_P.c                                   :+:      :+:    :+:   */
+/*   ft_itoa_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: amamy <amamy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/03 18:04:20 by amamy             #+#    #+#             */
-/*   Updated: 2019/07/30 22:19:51 by amamy            ###   ########.fr       */
+/*   Updated: 2019/04/24 16:01:06 by lgaultie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ static char	*ft_nb_neg(char *str, long n, int base)
 	return (str);
 }
 
-char		*ft_itoa_base_P(long long n, int base)
+char		*ft_itoa_base(long long n, int base)
 {
 	char	*str;
 	long	counter;

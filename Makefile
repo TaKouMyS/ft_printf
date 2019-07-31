@@ -6,7 +6,7 @@
 #    By: lgaultie <lgaultie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/13 13:12:42 by lgaultie          #+#    #+#              #
-#    Updated: 2019/07/30 17:50:09 by amamy            ###   ########.fr        #
+#    Updated: 2019/04/24 17:38:00 by amamy            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,7 +77,6 @@ SRCS =	$(LIBDIR)/ft_atoi.c					\
 		ft_disable_flag.c					\
 		ft_forbidden_conv.c
 
-		
 CFLAGS += -I$(INCDIR)
 OBJ = $(addprefix $(OBJDIR)/, $(SRCS:.c=.o))
 LIB		= $(LIBDIR)/libft.a
