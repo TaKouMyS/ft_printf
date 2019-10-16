@@ -6,7 +6,7 @@
 /*   By: amamy <amamy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/10 20:20:26 by amamy             #+#    #+#             */
-/*   Updated: 2019/07/30 22:21:40 by amamy            ###   ########.fr       */
+/*   Updated: 2019/10/16 16:33:17 by amamy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ char			*ft_strrealloc(char *str, int len);
 char			*ft_strndup(const char *s1, ssize_t len);
 void			lstendadd(t_list *alst, t_list *new);
 int				ft_nb_len_base(long long value, int base);
-char			*ft_itoa_base_P(long long n, int base);
+char			*ft_itoa_base_p(long long n, int base);
 int				ft_intlen(long long nb);
 char			*ft_itoa_base_mode_2(long long v, unsigned int b, int m);
 void			ft_putstrn(char const *s, int len);

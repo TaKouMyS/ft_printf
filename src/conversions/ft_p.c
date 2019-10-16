@@ -6,7 +6,7 @@
 /*   By: amamy <amamy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/03 13:57:13 by amamy             #+#    #+#             */
-/*   Updated: 2019/07/30 22:20:37 by amamy            ###   ########.fr       */
+/*   Updated: 2019/10/16 16:34:26 by amamy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ char			*ft_conv_p(t_data *data)
 	}
 	if (!(tmp = ft_strdup("0x")))
 		return (NULL);
-	if (!(ret_itoa = ft_itoa_base_P(ad, 16)))
+	if (!(ret_itoa = ft_itoa_base_p(ad, 16)))
 		return (ft_freetmpitoa(tmp, ret_itoa, 0));
 	if (!(final = ft_strjoin(tmp, ret_itoa)))
 		return (ft_freetmpitoa(tmp, ret_itoa, 1));
